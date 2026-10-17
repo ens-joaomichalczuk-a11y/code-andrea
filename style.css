@@ -20,16 +20,15 @@ footer{
     justify-content: center;
     align-items: center;
 }
-div{
-    width: 25%;
-    text-align: center;
-}
+
 .navv{
     background-color: yellow;
     border: 100%;
     border-color: black;
     border-radius: 90%;
     gap: 60px;
+    text-align: center;
+    width: 25%;
 }
 .texto{
     width: 500px;
@@ -73,10 +72,14 @@ div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 2px solid goldenrod;
+    width: 45%;
+    border-radius: 5%;
 }
 .secaooo{
     display: flex;
     justify-content: center;
+    gap: 22%;
 }
 .itens img{
     height: 64px;
