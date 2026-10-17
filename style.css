@@ -68,3 +68,17 @@ div{
 }
     
 }
+.itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.secaooo{
+    display: flex;
+    justify-content: center;
+}
+.itens img{
+    height: 64px;
+    width: 64px; 
+}
