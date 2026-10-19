@@ -1,3 +1,6 @@
+/* *{
+    margin: 0;
+} */
 header{
     display: flex;
     justify-content: space-around;
@@ -95,4 +98,31 @@ footer{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+.gridao{
+    display: grid;
+    grid-template-columns: 450px 450px ;
+    grid-template-rows: 450px 450px;
+    grid-gap: 40px;
+    justify-content: center;
+}
+.box {
+  background-color: goldenrod;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .box img{
+    width: 420px;
+    height: auto;
+ }
+.boxP {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  color: #000;
 }
